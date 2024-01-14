@@ -27,11 +27,11 @@
           <a class="main-name" href="./index.html"
             >Web<span class="special">Studio</span>
           </a>
-          <button class="button">button</button>
+          
           <ul class="menu-items">
             <li><a class="menu-one" href="./index.html">Studio</a></li>
-            <li><a class="menu-two" href="">Portfolio</a></li>
-            <li><a class="menu-three" href="">Contacts</a></li>
+            <li><a class="menu-one" href="">Portfolio</a></li>
+            <li><a class="menu-one" href="">Contacts</a></li>
           </ul>
         </nav>
         <address class="contakts">
@@ -46,6 +46,9 @@
             </li>
           </ul>
         </address>
+        <button class="window-button"><svg class="button-svg" width="24" height="24">
+          <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+        </svg></button>
       </div>
     </header>
 
@@ -77,7 +80,7 @@
               </div>
               <h3 class="list">Strategy</h3>
               <p class="stretegy">
-                Our goal is to identify the business problem to walk away with
+                Our goal is to identify the business<br> problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
@@ -126,8 +129,8 @@
           <h2 class="team">Our Team</h2>
           <ul class="contthree-first">
             <li class="first">
-              <img
-                src="./images/MarkGuerrero.jpg"
+              <img srcset="./images/Guerrero_1x_320.jpg 1x, ./images/Guerrero_2x_320.jpg 2x"
+                src="./images/Guerrero_1x_320.jpg"
                 width="264"
                 alt="Mark Guerrero"
               />
@@ -183,7 +186,8 @@
               </div>
             </li>
             <li class="first">
-              <img src="./images/TomFord.jpg" width="264" alt="Tom Ford" />
+              <img srcset="./images/Ford_1x_320.jpg 1x, ./images/Ford_2x_320.jpg 2x"
+               src="./images/Ford_1x_320.jpg" width="264" alt="Tom Ford" />
               <div class="first-mark">
                 <h3 class="mark">Tom Ford</h3>
                 <p class="guerrero">Frontend Developer</p>
@@ -236,8 +240,8 @@
               </div>
             </li>
             <li class="first">
-              <img
-                src="./images/CamilaGarcia.jpg"
+              <img srcset="./images/Garcia_1x_320.jpg 1x, ./images/Garcia_2x_320.jpg 2x"
+                src="./images/Garcia_1x_320.jpg"
                 width="264"
                 alt="Camila Garcia"
               />
@@ -293,8 +297,8 @@
               </div>
             </li>
             <li class="first">
-              <img
-                src="./images/DanielWilson.jpg"
+              <img srcset="./images/Wilson_1x_320.jpg 1x, ./images/Wilson_2x_320.jpg 2x "
+                src="./images/Wilson_1x_320.jpg"
                 width="264"
                 alt="Daniel Wilson"
               />
@@ -360,8 +364,8 @@
           <ul class="project">
             <li class="project-card-one">
               <div class="row-one-text">
-                <img
-                  src="./images/BankingApp.jpg"
+                <img srcset="./images/BankingApp_1x_320.jpg 1x, ./images/BankingApp_2x_320.jpg 2x"
+                  src="./images/BankingApp_1x_320.jpg"
                   width="360"
                   height="300"
                   alt="Banking App"
@@ -379,8 +383,8 @@
             </li>
             <li class="project-card-one">
               <div class="row-one-text">
-                <img
-                  src="./images/CashlessPayment.jpg"
+                <img srcset="./images/CashlessPayment_1x_320.jpg 1x, ./images/CashlessPayment_2x_320.jpg 2x"
+                  src="./images/CashlessPayment_1x_320.jpg"
                   width="360"
                   height="300"
                   alt="Cashless Payment"
@@ -398,8 +402,8 @@
             </li>
             <li class="project-card-one">
               <div class="row-one-text">
-                <img
-                  src="./images/MeditationApp.jpg"
+                <img srcset="./images/MeditationApp_1x_320.jpg 1x, ./images/MeditationApp_2x_320.jpg 2x"
+                  src="./images/MeditationApp_1x_320.jpg"
                   width="360"
                   height="300"
                   alt="Meditation App"
@@ -417,8 +421,8 @@
             </li>
             <li class="project-card-one">
               <div class="row-one-text">
-                <img
-                  src="./images/TaxiService.jpg"
+                <img srcset="./images/TaxiService_1x_320.jpg 1x, ./images/TaxiService_2x_320.jpg 2x"
+                  src="./images/TaxiService_1x_320.jpg"
                   width="360"
                   height="300"
                   alt="Taxi Service"
@@ -436,8 +440,8 @@
             </li>
             <li class="project-card-one">
               <div class="row-one-text">
-                <img
-                  src="./images/ScreenIllustrations.jpg"
+                <img srcset="./images/ScreenIllustrations_1x_320.jpg 1x, ./images/ScreenIllustrations_2x_320.jpg 2x"
+                  src="./images/ScreenIllustrations_1x_320.jpg"
                   width="360"
                   height="300"
                   alt="Screen Illustrations"
@@ -455,8 +459,8 @@
             </li>
             <li class="project-card-one">
               <div class="row-one-text">
-                <img
-                  src="./images/OnlineCourses.jpg"
+                <img srcset="./images/OnlineCourses_1x_320.jpg 1x, ./images/OnlineCourses_2x_320.jpg 2x"
+                  src="./images/OnlineCourses_1x_320.jpg"
                   width="360"
                   height="300"
                   alt="Online Courses"
@@ -544,6 +548,10 @@
     </footer>
 
    
+        <!-- ДЛЯ ПОЯВИ МОДАЛЬНОГО ВІКНА ВВЕДІТЬ В ПОЛЕ КЛАСУ BACKDROP
+        
+                           ДОДАТКОВИЙ КЛАС IS-OPEN -->
+
       <div class="backdrop">
         <div class="feedback">
           <button class="close" id="closeDialog" type="button">
@@ -617,7 +625,7 @@
                 value="true"
               />
               <label for="user-privacy" class="label">
-                <span class="form-span"><svg class="span-form-svg" width="10" height="8"><use href="./images/icons.svg#icon-Vector"></use></svg></span> I accept the terms and conditions of the
+                <span class="form-span"><svg class="span-form-svg" width="10" height="8"><use href="./images/icons.svg#icon-Vector"></use></svg></span>I accept the terms and conditions of the
                 <a class="privacy-policy">Privacy Policy</a></label
               >
             </div>
@@ -625,15 +633,23 @@
           </form>
         </div>
       </div>
+
+
+      <!-- ДЛЯ ПОЯВИ МОДАЛЬНОГО ВІКНА ВВЕДІТЬ В ПОЛЕ КЛАСУ NEW-MODAL-WINDOW
+        
+                           ДОДАТКОВИЙ КЛАС IS-OPEN -->
     
 
-    <div class="new-modal-window is-open">
+    <div class="new-modal-window">
+      <button class="close close-modal" type="button">
+        <svg class="close-cvg" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black-18dp-1"></use>
+        </svg></button>
 <ul class="menu-items-window">
             <li><a class="menu-one" href="./index.html">Studio</a></li>
-            <li><a class="menu-two" href="">Portfolio</a></li>
-            <li><a class="menu-three" href="">Contacts</a></li>
+            <li><a class="menu-one" href="">Portfolio</a></li>
+            <li><a class="menu-one" href="">Contacts</a></li>
           </ul>
-        </nav>
         <address class="contakts-window">
           <ul class="header-contakts">
             <li>
@@ -646,7 +662,55 @@
             </li>
           </ul>
         </address>
-
+        <ul class="social-links-modal">
+          <li class="links">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="link"
+              ><svg class="icon" width="16" height="16">
+                <use
+                  href="./images/icons.svg#icon-instagram-2"
+                ></use></svg
+            ></a>
+          </li>
+          <li class="link">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="link"
+              ><svg class="icon" width="16" height="16">
+                <use
+                  href="./images/icons.svg#icon-twitter-1"
+                ></use></svg
+            ></a>
+          </li>
+          <li class="link">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="link"
+              ><svg class="icon" width="16" height="16">
+                <use
+                  href="./images/icons.svg#icon-facebook-1"
+                ></use></svg
+            ></a>
+          </li>
+          <li class="link">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="link"
+              ><svg class="icon" width="16" height="16">
+                <use
+                  href="./images/icons.svg#icon-linkedin-1"
+                ></use></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
 
     </div>
    </body>
