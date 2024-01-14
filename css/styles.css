@@ -177,7 +177,7 @@ body{
                 background-color: #2E2F42;
                 padding: 72px 0;
                 max-width: 320px;
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("./images/hero-image_1x_320.jpg");
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero-image_1x_320.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
@@ -186,7 +186,7 @@ body{
 
 @media (min-resolution: 192dpi){
 .hero-image{
- background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("./images/hero-image_2x_320.jpg");
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero-image_2x_320.jpg);
 }}
 
                         .section-one {
